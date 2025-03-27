@@ -13,6 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+
 }
 
 header,
@@ -20,7 +21,7 @@ section,
 footer {
     border: 1px black solid;
     border-radius: 10px;
-    
+
 
 }
 
@@ -51,7 +52,8 @@ header {
     width: 100%;
 
 }
-.nav-var{
+
+.nav-var {
     display: inline-block;
 }
 
@@ -59,8 +61,8 @@ header {
 
 
 
-h1 { 
-    font-size:40px;
+h1 {
+    font-size: 40px;
     text-align: center;
     font-weight: 100;
     color: black;
@@ -77,24 +79,38 @@ main {
     padding: 20px;
 }
 
-.col-1, .col-2, .col-3, .col-4 {
+
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
-    width: 100%;
+        width: 100%;
     }
-    }
+}
 
 
-    
+
 @keyframes titulo-principal {
-    0% {color: yellow;}
-    50% {color: #09f;}
-    100% {color: red;}
+    0% {
+        color: yellow;
+    }
+
+    50% {
+        color: #09f;
+    }
+
+    100% {
+        color: red;
+    }
 }
 
 
@@ -125,11 +141,11 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    
+
 }
 
 
-/* .galeria {
+.galeria {
     display: flex;
     justify-content: space-around;
 
@@ -143,11 +159,11 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.galeria img:hover{
-    transform:translate(0, -10px);
+.galeria img:hover {
+    transform: scale(1.1);
     transition: transform 0.3s ease;
-    
-} */
+
+}
 
 
 
@@ -228,7 +244,7 @@ nav ul li a {
 
 .Reservas h2 {
     font-size: 2rem;
-    color:gray;
+    color: gray;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -314,19 +330,19 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
     background-color: #007acc;
-    transform: scale(1.1); 
-    transition: transform 0.5s ease; 
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
 
 form input:focus {
     border-color: #09f;
-    
+
 }
 
 
 
 footer {
-    background: linear-gradient(to right, #09f, #f0f8ff);   
+    background: linear-gradient(to right, #09f, #f0f8ff);
     background-color: #f0f8ff;
     padding: 30px;
     margin: auto;
