@@ -315,6 +315,7 @@ form input:focus {
     border-color: #09f;
 
 }
+
 #imagenes {
     text-align: center;
     justify-content: space-around;
@@ -322,6 +323,7 @@ form input:focus {
     color: white;
 
 }
+
 .galeria {
     display: flex;
     justify-content: space-around;
